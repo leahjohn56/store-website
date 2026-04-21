@@ -1,0 +1,17 @@
+body{
+    font-family: Smooch Sans;
+    text-align: center;
+}
+
+.smooch-sans{
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.interior{
+    display: inline-block;
+}
+
+.exterior{
+    display: inline-block;
+}
