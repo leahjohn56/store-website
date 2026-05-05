@@ -1,27 +1,39 @@
-body{
-    font-family: Smooch Sans;
-    text-align: center;
-    margin: auto;
-}
+.bagel-fat-one-regular {
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
 
-.smooch-sans{
-  font-family: "Smooch Sans", sans-serif;
-  font-optical-sizing: auto;
-}
+  .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.cause{
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
 
-.interior{
-    display: inline-block;
-}
+  h2{
+    color: rgb(143, 135, 235);
+    font-family: "Ms Madi", cursive;
+  }
 
-.exterior{
-    display: inline-block;
-}
+  h3{
+    color: rgb(255, 158, 231);
+    font-family: "Bagel Fat One", system-ui;
+  }
 
-ul{
+  .header{
     list-style-type: none;
-    margin: 0;
+    margin: -1.5%;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(175, 170, 231);
     display: flex;
     justify-content: center;
     position: sticky;
@@ -29,127 +41,28 @@ ul{
     margin-bottom: 18px;
 }
 
+ul li a:hover{
+    background-color: rgb(143, 135, 235);
+}
+
 ul li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 158, 231);
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/*ul li:last-child{
-
-}*/
-
-ul li a:hover{
-    background-color: dimgrey;
+.menu{
+    list-style-type: decimal;
+    text-align: left;
 }
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-left: -50%;
-  margin-top: -22px;
-  padding: 16px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(121, 121, 121, 0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #000000;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
+body{
+    background-color: rgb(255, 219, 229);
+    color: rgb(175, 170, 231);
     text-align: center;
-  }
-  
-  /* Number text*/
-  .numbertext {
-    color: #000000;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-  input, textarea {
-    width: 300px;
-    padding: 8px;
-    margin-bottom: 10px;
-   }
-   
-   button {
-    font-family: Smooch Sans;
-    font-size: medium;
-    padding: 10px 15px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
-    border-radius: 10%;
-   }
-   
-   button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-   }
-   
+    font-family: "Cause", cursive;
+}
+h1{
+    font-family: "Bagel Fat One", system-ui;
+}
